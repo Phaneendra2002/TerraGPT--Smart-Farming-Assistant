@@ -1,0 +1,34 @@
+
+📁 Document and Question Datasets
+
+1. Document Datasets (Structured Data Files)
+
+- muaggatt.txt: USDA SSURGO soil component attributes (pH, organic matter, texture, etc.)
+- mapunit.txt: Mapping of soil units to regions (mukey, area symbol, acres)
+- data_core.csv: Crop-to-soil compatibility data from Kaggle (Crop Type, Soil Type, Conditions)
+- soil_data.db: Final SQLite database created by merging the above datasets for structured queries
+
+These datasets are used to perform structured lookups for soil properties, crop suitability, and climate-aware crop recommendations within the TerraGPT assistant.
+
+2. User Query Dataset (Sample Questions)
+
+1. What crops grow well in loamy soil?
+2. Recommend a fertilizer for wheat.
+3. Which soil type is best for rice?
+4. Suggest crops for clay soil in humid regions.
+5. What is the ideal pH level for tomato?
+6. How to prevent fungal disease in cucumber?
+7. Recommend a crop for sandy soil and low rainfall.
+8. Suggest crops for Delhi based on weather.
+9. What is the organic matter level needed for maize?
+10. Which crop suits moderately drained soil?
+11. What are signs of tomato blight?
+12. Suggest low-water crops for summer.
+13. Recommend crops for pH level 6.5.
+14. Suggest a fertilizer high in potassium.
+15. Recommend a drought-resistant cereal crop.
+16. Which soil is best for banana?
+17. What temperature range suits brinjal?
+18. What crop grows best in alkaline soil?
+19. Suggest pest control for groundnut.
+20. Recommend crops for silt-loam soil.
